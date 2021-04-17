@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins&family=Roboto&display=swap');
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background: white;
+    z-index: 10;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+}
+
+.nav-center img{
+    width: 70px;
+}
+
+.nav-center h1{
+    color: blue;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.2rem;
+
+}
+
+.nav-center h1 span{
+    color: red;
+    font-family: 'Bangers', cursive;
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+}
+
+.lists a{
+    margin-right: 2rem;
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+
